@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>
+		Web Locks API DEMO
+	</title>
+</head>
+<body onload="sample()">
+<button onclick="requestForResource1()">Request for Resource 1</button> <span style="margin: 0 20">Resource 1 Value:<span id="resource_1_value"></span></span>
+<br>
+<br>
+<button onclick="requestForResource2()">Request for Resource 2</button> <span style="margin: 0 20">Resource 2 Value:<span id="resource_2_value"></span></span>
+<br>
+<br>
+<button onclick="clearData()">Clear Resource Values</button>
+<br>
+<br>
+<button onclick="showCurrentLocks()">Show Current Locks Status</button>
+<br>
+<br>
+<code id="currentLocks"></code>
+
+<script src="./script.js"></script>
+</body>
+</html>
